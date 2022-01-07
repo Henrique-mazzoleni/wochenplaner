@@ -1,0 +1,9 @@
+version: "3"
+services:
+  wochenplaner-app:
+    image: henriquemazzoleni/wochenplaner
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app/src/usr
